@@ -3,6 +3,7 @@ import{BsFillMoonStarsFill} from 'react-icons/bs';
 import{AiFillLinkedin, AiFillMail} from 'react-icons/ai';
 import Image from 'next/legacy/image';
 import heroImage from "../public/heroImage.png";
+import coming from "../public/comingsoon.png";
 import design from "../public/netflix.jpg";
 import {useState} from "react";
 import Link from 'next/link';
@@ -64,45 +65,9 @@ export default function Home() {
   </div>
 
   {/* cards */}
+
+
   <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-    <div className="text-center shadow-lg p-10 rounded-xl my-10 basis-1/3 flex-1 dark:bg-slate-400">
-      <Image src={design}className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
-      <h3 className="text-lg font-medium pt-8 pb-2">Mockup Netflix</h3>
-      <p className="py-2">Netflix mockup that replicates the homepage using api that fetches data</p>
-      <h4 className="py-4 text-teal-600">Made with</h4>
-      <div class="flex justify-between px-6">
-      <p className="text-gray-800 py-1">react</p>
-      <p className="text-gray-800 py-1"> Javascript</p>
-      <p className="text-gray-800 py-1"> TailwindCSS</p>
-      </div>
-
-    </div>
-
-    <div className="text-center shadow-lg p-10 rounded-xl my-10 basis-1/3 flex-1 dark:bg-slate-400 ">
-      <Image src={design}className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
-      <h3 className="text-lg font-medium pt-8 pb-2">Mockup Netflix</h3>
-      <p className="py-2">Netflix mockup that replicates the homepage using api that fetches data</p>
-      <h4 className="py-4 text-teal-600">Made with</h4>
-      <div class="flex justify-between px-6">
-      <p className="text-gray-800 py-1">react</p>
-      <p className="text-gray-800 py-1"> Javascript</p>
-      <p className="text-gray-800 py-1"> TailwindCSS</p>
-      </div>
-
-    </div>
-
-    <div className="text-center shadow-lg p-10 rounded-xl my-10 basis-1/3 flex-1 dark:bg-slate-400">
-      <Image src={design} className="rounded-lg object-cover"width={'100%'} height={'100%'} layout="responsive"/>
-      <h3 className="text-lg font-medium pt-8 pb-2">Mockup Netflix</h3>
-      <p className="py-2">Netflix mockup that replicates the homepage using api that fetches data</p>
-      <h4 className="py-4 text-teal-600">Made with</h4>
-      <div class="flex justify-between px-6">
-      <p className="text-gray-800 py-1">react</p>
-      <p className="text-gray-800 py-1"> Javascript</p>
-      <p className="text-gray-800 py-1"> TailwindCSS</p>
-      </div>
-
-    </div>
     <div className="text-center shadow-lg p-10 rounded-xl my-10 basis-1/3 flex-1 dark:bg-slate-400">
       <Link href="https://netflixmockupmaahi.netlify.app">
       <Image src={design} className="rounded-lg object-cover"width={'100%'} height={'100%'} layout="responsive"/></Link>
@@ -116,6 +81,45 @@ export default function Home() {
       </div>
 
     </div>
+    <div className="text-center shadow-lg p-10 rounded-xl my-10 basis-1/3 flex-1 dark:bg-slate-400">
+      <Image src={coming}className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
+      <h3 className="text-lg font-medium pt-8 pb-2">coming soon..</h3>
+      <p className="py-2">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+      <h4 className="py-4 text-teal-600">Made with</h4>
+      <div class="flex justify-between px-6">
+      <p className="text-gray-800 py-1">react</p>
+      <p className="text-gray-800 py-1"> Javascript</p>
+      <p className="text-gray-800 py-1"> TailwindCSS</p>
+      </div>
+
+    </div>
+
+    <div className="text-center shadow-lg p-10 rounded-xl my-10 basis-1/3 flex-1 dark:bg-slate-400 ">
+      <Image src={coming}className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
+      <h3 className="text-lg font-medium pt-8 pb-2">coming soon</h3>
+      <p className="py-2">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+      <h4 className="py-4 text-teal-600">Made with</h4>
+      <div class="flex justify-between px-6">
+      <p className="text-gray-800 py-1">react</p>
+      <p className="text-gray-800 py-1"> Javascript</p>
+      <p className="text-gray-800 py-1"> TailwindCSS</p>
+      </div>
+
+    </div>
+
+    <div className="text-center shadow-lg p-10 rounded-xl my-10 basis-1/3 flex-1 dark:bg-slate-400">
+      <Image src={coming} className="rounded-lg object-cover"width={'100%'} height={'100%'} layout="responsive"/>
+      <h3 className="text-lg font-medium pt-8 pb-2">coming soon</h3>
+      <p className="py-2">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+      <h4 className="py-4 text-teal-600">Made with</h4>
+      <div class="flex justify-between px-6">
+      <p className="text-gray-800 py-1">react</p>
+      <p className="text-gray-800 py-1"> Javascript</p>
+      <p className="text-gray-800 py-1"> TailwindCSS</p>
+      </div>
+
+    </div>
+    
   </div>
 </section>
 
